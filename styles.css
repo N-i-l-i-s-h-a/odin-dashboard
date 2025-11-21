@@ -48,11 +48,15 @@
 }
 
 .bigbat{
-    width: 40px;
+    width: 50px;
 }
 
 .project-icon{
     width: 20px;
+}
+
+body{
+    background-color: rgb(116, 111, 111);
 }
 
 .main-container{
@@ -60,7 +64,6 @@
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 1fr 3fr 3fr;
-    background-color: rgb(116, 111, 111);
 }
 
 .sidebar{
@@ -95,18 +98,28 @@
     flex-direction: column;
     background-color: white;
     border: 1px solid grey;
-    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
-    padding: 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    padding: 16px 32px;
+    gap: 16px;
 }
 .head{
     display: flex;
     justify-content: space-between;
-    margin-top: 8px;
 }
 .left{
     display: flex;
     gap: 8px;
     margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.hi-text{
+    font-size: smaller;
+    font-weight: 600;
+}
+.hi-name{
+    font-size: large;
+    font-weight: 800;
 }
 input{
     height: 20px;
@@ -116,11 +129,14 @@ input{
     background-color: rgb(219, 224, 237);
 }
 .right{
-    margin-top: 10px;
     display: flex;
     gap: 32px;
     font-weight: bolder;
-    padding-right: 32px;
+    justify-content: center;
+    align-items: center;
+}
+.title-name{
+    margin-top: 6px;
 }
 button{
     width: 90px;
