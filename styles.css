@@ -15,21 +15,21 @@
 }
 
 .pfp{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
 }
 .bat{
-    background-color: rgb(255, 221, 0);
+    background-color: rgb(255, 174, 0);
 }
 .huk{
-    background-color: darkred;
+    background-color: rgb(240, 79, 79);
 }
 .flas{
-    background-color: rgb(17, 0, 255);
+    background-color: rgb(76, 148, 114);
 }
 .tho{
-    background-color: rgb(0, 255, 153);
+    background-color: rgb(81, 95, 249);
 }
 
 .dashicon{
@@ -49,6 +49,7 @@
 
 .bigbat{
     width: 50px;
+    height: 50px;
 }
 
 .project-icon{
@@ -60,10 +61,10 @@ body{
 }
 
 .main-container{
-    height: 100vh;
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 3fr 3fr;
+    grid-template-rows: 1fr 2fr 2fr;
 }
 
 .sidebar{
@@ -154,7 +155,7 @@ button{
 .cards{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
     gap: 16px;
     margin-top: 10px;
 }
@@ -162,16 +163,19 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 20px;
-    height: 136px;
+    height: 140px;
     background-color: white;
     padding: 16px;
     border-radius: 10px;
+    border-left: 10px solid rgb(255, 196, 0);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
     font-size: small;
+    color: rgb(86, 83, 83);
 }
 .card-title>h3{
     font-size: medium;
+    color: black;
+    margin-bottom: 5px;
 }
 .opts{
     display: flex;
@@ -179,7 +183,6 @@ button{
     justify-content: end;
     gap: 20px;
 }
-
 
 .announcements{
     grid-area: 2/3/3/4;
@@ -195,14 +198,16 @@ button{
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
     font-size: smaller;
+    color: rgb(86, 83, 83);
 }
 h4{
     font-size: small;
+    color: black;
 }
 hr {
   border: none;
-  border-top: 1px solid black; 
-  width: 80%; 
+  border-top: 1px solid rgb(179, 179, 179); 
+  width: 100%; 
 }
 
 .trending{
